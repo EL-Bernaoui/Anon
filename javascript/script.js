@@ -145,7 +145,7 @@ let day1 = document.querySelector(".deals .box .date_1 .day"),
     minute2 = document.querySelector(".deals .box .date_2 .min"),
     second2 = document.querySelector(".deals .box .date_2 .sec");
 
-let wantedDate = new Date("Jul 15, 2023 14:59:59").getTime();
+let wantedDate = new Date("Jul 15, 2025 14:59:59").getTime();
 
 let counter = setInterval(() => {
     let dateNow = new Date().getTime();
